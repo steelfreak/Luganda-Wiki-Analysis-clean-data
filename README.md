@@ -196,11 +196,11 @@ Online communities are organized around articles that connect in two primary way
 I am messing with you. 
 Please do whatever you think is right.
 
-NB: Incase, You may want to hand me a cup of Tea 
-<a href="https://wallet.wearemarz.com/pay/1e02cad6-ec2b-4bef-b788-06d792ca22dc">Pay Now</a>
-<https://wallet.wearemarz.com/pay/1e02cad6-ec2b-4bef-b788-06d792ca22dc>
+NB: Just In case, 
+<a href="https://wallet.wearemarz.com/pay/1e02cad6-ec2b-4bef-b788-06d792ca22dc" target="_blank" rel="noopener noreferrer">Buy me some Tea</a>
+<!-- <https://wallet.wearemarz.com/pay/1e02cad6-ec2b-4bef-b788-06d792ca22dc> -->
 
-[Make a Payment](https://wallet.wearemarz.com/pay/1e02cad6-ec2b-4bef-b788-06d792ca22dc)  
+<!-- [Make a Payment](https://wallet.wearemarz.com/pay/1e02cad6-ec2b-4bef-b788-06d792ca22dc)   -->
 
 ---
 
