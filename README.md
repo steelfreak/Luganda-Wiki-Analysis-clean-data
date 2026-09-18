@@ -22,7 +22,7 @@ Clean FIles (csv files) ready for data analysis based on 1st September 2026
 
 ![Relations in the model](img/relations.JPG)
 [Click here to view image](img/patterns.JPG)
-<img src="img/ER-Model.JPG" alt="Image Description" width="500">
+
 ![Community Diagram](img/relations.JPG)
 
 ## Wikimedia Community Uganda
@@ -80,6 +80,10 @@ Online communities are organized around articles that connect in two primary way
 ---
 
 ## Database Schema & Main Entities
+
+<img src="img/ER-Model.JPG" alt="Image Description" width="500">
+
+
 
 ### Entities
 * `Page`
