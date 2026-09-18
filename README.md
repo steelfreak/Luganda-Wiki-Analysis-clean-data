@@ -19,6 +19,9 @@ Clean FIles (csv files) ready for data analysis based on 1st September 2026
 
 ---
 
+
+![Image Description](mine.jpg)
+
 ## Wikimedia Community Uganda
 
 Online communities are organized around articles that connect in two primary ways:
