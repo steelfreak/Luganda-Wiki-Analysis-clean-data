@@ -1,0 +1,17 @@
+page_id,revision_id,parent_id,timestamp,username,comment,origin,bytes,sha1
+1,2,,2004-08-28T16:33:05Z,Unknown user,,2,1873,fzkqz451471alobbunt9n7r0bbqndio
+1,3,2,2005-06-09T18:36:14Z,Angela,fix link to en. remove Wikitravel since it's not a Wikimedia project,3,1818,ham2378pme8qrisw3qsajicg3gsb4d2
+1,919,3,2005-06-09T18:40:02Z,Angela,,919,1819,f7wxbo8q9e9m1msgoffv3uzhwkzpoux
+1,2354,919,2005-07-24T22:45:08Z,,,2354,183,e6v3j1qtbcerhcegfp9x0gokk4anu0r
+1,2355,2354,2005-07-24T22:45:57Z,,,2355,193,efhl8iipvdv25grfsphqf9zrmob1sdq
+1,2438,2355,2005-08-01T00:12:10Z,,rv to last version by Angela,2438,1819,f7wxbo8q9e9m1msgoffv3uzhwkzpoux
+1,2469,2438,2005-08-20T13:24:13Z,,,2469,1727,22x7ei1yd5jmjl67rye53xb4bpp3168
+1,2471,2469,2005-09-01T13:24:55Z,,,2471,1726,t4g8zio0icjbd70v5g1digjqpdskdqd
+1,2521,2471,2005-10-11T07:31:31Z,,,2521,1711,mop8he0xdz4h3zr838ed11pb6lr6amu
+1,2522,2521,2005-10-11T16:07:24Z,Chamdarae,rv,2522,1726,t4g8zio0icjbd70v5g1digjqpdskdqd
+1,2725,2522,2005-12-14T02:20:24Z,,,2725,2658,cl02mz0a1qv1xhunjki0elpglibbanv
+1,2731,2725,2005-12-16T06:03:57Z,Korg,Reverted edits by [[Special:Contributions/58.231.179.93|58.231.179.93]] to last version by Chamdarae,2731,1726,t4g8zio0icjbd70v5g1digjqpdskdqd
+1,2734,2731,2005-12-18T11:38:21Z,,,2734,2832,2t9wtmsm6fu7hx7bdk80fm5zdwm4xrt
+1,2742,2734,2005-12-19T00:29:31Z,,rv spam,2742,1726,t4g8zio0icjbd70v5g1digjqpdskdqd
+1,2792,2742,2006-01-06T00:09:52Z,,,2792,3160,49gjw7ssxeqvro280395ad0684hd35b
+1,2798,2792,2006-01-06T04:35:17Z,Korg,Reverted edits by [[Special:Contributions/222.235.239.33|222.235.239.33]] to last version by 62.141.24.65,2798,1726,t4g8zio0icjbd70v5g1digjqpdskdqd
