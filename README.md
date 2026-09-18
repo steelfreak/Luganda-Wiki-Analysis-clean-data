@@ -185,7 +185,86 @@ Online communities are organized around articles that connect in two primary way
 
 ---
 
-## Possible Graphs
+
+# Wikipedia Database Schema: Analytical Outcomes & Visualizations
+
+This document outlines the analytical insights, structural relationships, and data visualizations that can be generated using the provided multi-relational Wikipedia entity schema.
+
+---
+
+## 1. Schema Relationships Overview
+
+```
+ [Person] ------(1:1)-----> [Country]
+    |
+  (1:1)
+    v
+  [Page] <------(1:N)------ [Revision]
+    |
+    +-----------(1:N)-----> [Wiki-links] ----> [Target Page]
+    |
+    +-----------(1:N)-----> [Citation]
+    |
+    +-----------(N:M)-----> [Categories]
+    |
+    +-----------(1:N)-----> [Redirect]
+```
+
+---
+
+## 2. Core Analytical Outcomes & Insights
+
+### A. Information Reliability & Citation Quality
+* **Fact-Checking Density:** Calculate the ratio of `Citation` entries to total `Paragraphs` or `Bytes` across articles to flag under-referenced or low-quality topics.
+* **Source Dependency & Domain Centrality:** Identify high-use citations across multiple `Page-ID` entries to evaluate systemic reliance on specific external sources or publications.
+* **Content Richness Index:** Measure article depth by combining structural indicators (`Headings`, `Paragraphs`, `Number of Images`, and `Citation` count).
+
+### B. Editor Dynamics & Content Volatility
+* **Edit Controversies & Conflict Detection:** Track high `Revision` counts within short `Timestamp` windows paired with alternating `Username` entries to spot edit wars.
+* **Vandalism & Bot Pattern Analysis:** Detect instant rollbacks and automated edits by identifying matching `Sha1` file hashes across historical revisions.
+* **Article Longevity & Growth Velocity:** Monitor `Bytes` progression from the `Date of Creation` to measure how rapidly articles mature.
+
+### C. Knowledge Representation & Demographic Bias
+* **Gender & Diversity Representation:** Aggregate `Person` attributes (`Gender`, `Sexual orientation`) across different `Categories` to quantify demographic disparities in coverage (e.g., historical proportion of female biographies in STEM).
+* **Geographic Coverage Disparities:** Cross-reference biographical entries via `Country of origin` and `Place of birth` against global populations to uncover geographic blind spots in coverage.
+* **Historical & Longevity Trends:** Group `Date of Birth (Dob)` and `Date of Death (Dod)` metrics to evaluate historical coverage distribution across eras.
+
+### D. Network Topology & Graph Analytics
+* **Page Centrality & Hub Identification:** Compute PageRank and Betweenness Centrality on `Wiki-links` to classify gateway articles versus isolated "dead-end" pages.
+* **Topic Clustering & Interdisciplinarity:** Map overlap in `Categories` to see how disparate fields (e.g., *Computer Science* and *Philosophy*) connect through mutual links.
+* **Redirect Alias Mapping:** Analyze `Redirect` paths to observe common search terms, synonyms, and historical naming variations.
+
+---
+
+## 3. Recommended Visualizations & Graphs
+
+| Visualization Type | Key Entities / Attributes | Analytical Goal |
+| :--- | :--- | :--- |
+| **Directed Network Graph** | `Page`, `Wiki-links` | Map knowledge topology, core concept hubs, and article clusters. |
+| **Bipartite Citation Network** | `Page`, `Citation` | Identify key external publications powering entire article networks. |
+| **Revision Timeline (Line Chart)** | `Revision` (`Timestamp`, `Bytes`) | Show growth trajectory, edit spikes during major events, and stagnation. |
+| **Editor Activity Heatmap** | `Revision` (`Timestamp`, `Username`) | Reveal peak collaboration windows, timezone trends, and bot behavior. |
+| **Geospatial Choropleth Map** | `Person` (`Country of origin`), `Country` | Highlight geographic bias and global coverage distribution. |
+| **Demographic Bar / Donut Charts** | `Person` (`Gender`, `Sexual orientation`) grouped by `Categories` | Measure diversity gaps across academic, political, and cultural domains. |
+| **Quality Scatter Plot** | `Paragraphs` vs. `Citation` count | Isolate weak/unverified long text vs. dense, well-cited content. |
+| **Category Treemap** | `Categories`, `Page-ID` | Display macro-level topic proportions across the platform. |
+
+---
+
+## 4. Derived Metrics & Formulas
+
+1. **Citation Density Index:**
+   $$\text{Citation Density} = \frac{\text{Total Citations}}{\text{Total Paragraphs}}$$
+
+2. **Revision Volatility Score:**
+   $$\text{Volatility} = \frac{\text{Total Revisions}}{\text{Days Since Creation}}$$
+
+3. **Link Connectivity Ratio:**
+   $$\text{Connectivity} = \frac{\text{Outbound Wiki-links}}{\text{Total Paragraphs}}$$
+
+
+
+## Other Possible Graphs
 
 1. Title vs. Revisions
 2. Day vs. Time
