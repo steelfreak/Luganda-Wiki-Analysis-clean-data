@@ -20,7 +20,7 @@ Clean FIles (csv files) ready for data analysis based on 1st September 2026
 ---
 
 
-![Image Description](img/relations.jpg)
+![Relations in the model](img/relations.JPG)
 
 ## Wikimedia Community Uganda
 
