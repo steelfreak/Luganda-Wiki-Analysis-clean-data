@@ -203,6 +203,8 @@ NB:
 
   2: <a href="https://wa.me/256783338952?text=Hello%20Wikimedia%20Community%20Uganda" target="_blank" rel="noopener noreferrer">Let's Chat on WhatsApp</a>
 
+  3: Let's Brainstorm
+
 
 ---
 
