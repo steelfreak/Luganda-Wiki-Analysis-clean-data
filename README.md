@@ -21,7 +21,7 @@ Clean FIles (csv files) ready for data analysis based on 1st September 2026
 
 
 ![Relations in the model](img/relations.JPG)
-[Click here to view image](img/patterns.JPG)
+
 
 ![Community Diagram](img/relations.JPG)
 
@@ -53,10 +53,8 @@ Online communities are organized around articles that connect in two primary way
 ## Areas of Concern
 
 1. Luganda Wikipedia
-2. Runyankore-Rukiga Wikipedia
-3. Wikimedia Commons
-4. Wikidata
-5. Wikisource
+
+[Click here to view image](img/patterns.JPG)
 
 ---
 
