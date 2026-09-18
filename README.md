@@ -23,7 +23,7 @@ Clean FIles (csv files) ready for data analysis based on 1st September 2026
 ![Relations in the model](img/relations.JPG)
 
 
-![Community Diagram](img/relations.JPG)
+<!-- ![Community Diagram](img/relations.JPG) -->
 
 ## Wikimedia Community Uganda
 
@@ -192,6 +192,15 @@ Online communities are organized around articles that connect in two primary way
 3. Username vs. Bytes
 4. Day vs. Bytes
 5. Time vs. Bytes
+
+I am messing with you. 
+Please do whatever you think is right.
+
+NB: Incase, You may want to hand me a cup of Tea 
+<a href="https://wallet.wearemarz.com/pay/1e02cad6-ec2b-4bef-b788-06d792ca22dc">Pay Now</a>
+<https://wallet.wearemarz.com/pay/1e02cad6-ec2b-4bef-b788-06d792ca22dc>
+
+[Make a Payment](https://wallet.wearemarz.com/pay/1e02cad6-ec2b-4bef-b788-06d792ca22dc)  
 
 ---
 
