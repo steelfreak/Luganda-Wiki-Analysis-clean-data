@@ -201,10 +201,8 @@ NB:
 <a href="https://wallet.wearemarz.com/pay/1e02cad6-ec2b-4bef-b788-06d792ca22dc" target="_blank" rel="noopener noreferrer">Buy me some Tea</a>
 
 
-  2: <a href="https://wa.me/256783338952?text=Hello%20Wikimedia%20Community%20Uganda" target="_blank" rel="noopener noreferrer">Chat with us on WhatsApp</a>
-<!-- <https://wallet.wearemarz.com/pay/1e02cad6-ec2b-4bef-b788-06d792ca22dc> -->
+  2: <a href="https://wa.me/256783338952?text=Hello%20Wikimedia%20Community%20Uganda" target="_blank" rel="noopener noreferrer">Let's Chat on WhatsApp</a>
 
-<!-- [Make a Payment](https://wallet.wearemarz.com/pay/1e02cad6-ec2b-4bef-b788-06d792ca22dc)   -->
 
 ---
 
