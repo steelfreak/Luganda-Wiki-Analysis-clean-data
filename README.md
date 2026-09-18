@@ -21,8 +21,8 @@ Clean FIles (csv files) ready for data analysis based on 1st September 2026
 
 
 ![Relations in the model](img/relations.JPG)
-[Click here to view image](img/relations.JPG)
-<img src="img/relations.JPG" alt="Image Description" width="500">
+[Click here to view image](img/patterns.JPG)
+<img src="img/ER-Model.JPG" alt="Image Description" width="500">
 ![Community Diagram](img/relations.JPG)
 
 ## Wikimedia Community Uganda
